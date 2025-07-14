@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #162f8d;
+  color: white;
+  height: 2cm;
+  align-items: center;
+  margin-bottom: 2cm;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+input {
+  height: 40px;
+  width: 350px;
+  padding: 12px;
+  border: none;
+  margin-right: 1cm;
+}
+
+nav .logo {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+nav .nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+nav .nav-links a {
+  font-size: 20px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+nav .nav-links a:hover {
+  border-bottom: 2px solid white;
+}
+
+nav .cartItem {
+  color: white;
+  margin-right: 1cm;
+}
+
+nav .cartItem:hover {
+  color: white;
+}
+
+nav .cartItem:visited {
+  color: white;
+}
