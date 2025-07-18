@@ -1,0 +1,77 @@
+.products {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.product {
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product img {
+  width: 300px;
+}
+
+.product .description {
+  text-align: center;
+}
+
+..product:hover {
+  transition: 0.3s ease-in;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.addToCartBttn {
+  background-color: yellow;
+  border: 2px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+.addToCartBttn:hover {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.amount {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.amount .amountButton {
+  background-color: yellow;
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 20px;
+  width: 20px;
+  color: black;
+  text-align: center;
+}
+
+.amount .amountButton:hover {
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+}
+
+.amount .amountNumber {
+  color: black;
+  margin-left: 5px;
+  margin-right: 5px;
+}
